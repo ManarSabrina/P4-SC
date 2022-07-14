@@ -716,6 +716,14 @@ h3 {
     color: #333333!important;
 }
 
+.titre {
+    font-size: 22px;
+}
+
+.paragraphe {
+    font-size: 17px;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -775,7 +783,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(255, 255, 255)!important;
+    font-size: 30px;
+    z-index: 10;
 }
 
 .btn-atomic-tangerine {
@@ -819,10 +829,15 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    z-index: 0;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.btn-clean, .bgc-atomic-tangerine {
+    background-color: #8A4300;
 }
 
 @media (max-width: 1024px) {
